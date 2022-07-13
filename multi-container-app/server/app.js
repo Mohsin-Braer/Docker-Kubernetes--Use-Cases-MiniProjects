@@ -87,7 +87,8 @@ app.delete('/goals/:id', async (req, res) => {
 
 mongoose.connect(
   //Run client, server, and db on the same docker network (hostname based on tag name of db container)
-  'mongodb://mongodb:27017/course-goals',
+  //db secured with username password combo
+  `mongodb://${process.env.MONGODB_USERNAME}:${process.env.MONGODB_PASSWORD}@mongodb:27017/course-goals?authSource=admin`,
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
