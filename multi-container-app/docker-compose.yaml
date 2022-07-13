@@ -1,0 +1,39 @@
+version: '3.9'
+services:
+
+  mongodb:
+    image: 'mongo'
+    volumes:
+      - data:/data/db
+    env_file:
+      - ./env/mongo.env
+  
+  server:
+    build: ./server
+    ports: 
+      - '80:80' 
+    volumes:
+      - logs:/server/logs
+      - ./server:/server
+      - /server/node-modules
+    env_file:
+      - ./env/server.env
+    depends_on:
+      - mongodb
+
+  client:
+    build: ./client
+    volumes:
+      - ./client/src:/client/src
+    ports:
+      - '3000:3000'
+    stdin_open: true
+    tty: true
+    depends_on:
+      - server
+  
+
+volumes:
+  data:
+  logs:
+      
