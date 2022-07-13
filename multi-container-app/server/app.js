@@ -15,6 +15,7 @@ const accessLogStream = fs.createWriteStream(
   { flags: 'a' }
 );
 
+//Middleware
 app.use(morgan('combined', { stream: accessLogStream }));
 
 app.use(bodyParser.json());
@@ -25,6 +26,7 @@ app.use((req, res, next) => {
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
   next();
 });
+
 
 app.get('/goals', async (req, res) => {
   console.log('TRYING TO FETCH GOALS');
@@ -84,7 +86,8 @@ app.delete('/goals/:id', async (req, res) => {
 });
 
 mongoose.connect(
-  'mongodb://localhost:27017/course-goals',
+  //Run client, server, and db on the same docker network (hostname based on tag name of db container)
+  'mongodb://mongodb:27017/course-goals',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,

@@ -14,8 +14,7 @@ function App() {
       setIsLoading(true);
 
       try {
-        const response = await fetch('http://localhost/goals');
-
+        const response = await fetch('http://localhost/goals'); //keep as localhost (expose port to container), react doesn't recognize container names in network because it's run in thru browser engine
         const resData = await response.json();
 
         if (!response.ok) {
