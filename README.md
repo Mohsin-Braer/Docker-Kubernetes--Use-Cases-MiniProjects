@@ -11,11 +11,11 @@ Playing around with and learning more about various core features of Docker (v20
 4. Cross-Container Networking
 5. Docker-Compose
 6. Utility Containers (Command Execution)
-⋅⋅* Entrypoint 
+..* Entrypoint 
 8. Deployment of a Docker Container Service w/ AWS ECS
-⋅⋅* EFS Volumes
-⋅⋅* Load Balancer 
-⋅⋅* Multi-Stage Image & Builds
+..* EFS Volumes
+..* Load Balancer 
+..* Multi-Stage Image & Builds
 
 #### [Kubernetes](https://kubernetes.io/)
 
