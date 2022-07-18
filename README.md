@@ -18,10 +18,11 @@ Playing around with and learning more about various core features of Docker (v20
     * Multi-Stage Image & Builds
 
 #### [Kubernetes](https://kubernetes.io/)
-1. Deployment Objects
+1. Cluster Architecture 
+2. Deployment Objects
     * Deployment Config Files
-2. Service Objects
-    * Deployment exposure with Service
-3. Labels & Selectors
+3. Service Objects
+    * Deployment Pod exposure with Service
+4. Labels & Selectors
 
 
