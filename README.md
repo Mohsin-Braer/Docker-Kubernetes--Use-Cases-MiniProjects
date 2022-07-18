@@ -5,6 +5,17 @@ Playing around with and learning more about various core features of Docker (v20
 ### Concepts & Features Covered
 
 #### [Docker](https://docs.docker.com/)
+1. Containers
+2. Volumes (anonymous, named, bind mounts)
+3. Dockerhub
+4. Cross-Container Networking
+5. Docker-Compose
+6. Utility Containers (Command Execution)
+⋅⋅* Entrypoint 
+8. Deployment of a Docker Container Service w/ AWS ECS
+⋅⋅* EFS Volumes
+⋅⋅* Load Balancer 
+⋅⋅* Multi-Stage Image & Builds
 
 #### [Kubernetes](https://kubernetes.io/)
 
