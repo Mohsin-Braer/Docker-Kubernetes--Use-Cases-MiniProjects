@@ -23,6 +23,7 @@ Playing around with and learning more about various core features of Docker (v20
     * Deployment Config Files
 3. Service Objects
     * Deployment Pod exposure with Service
-4. Labels & Selectors
+4. Scaling Pods
+5. Labels & Selectors
 
 
