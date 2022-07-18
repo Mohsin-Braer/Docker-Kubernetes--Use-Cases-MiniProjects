@@ -6,6 +6,6 @@ Playing around with and learning more about various core features of Docker (v20
 
 #### [Docker](https://docs.docker.com/)
 
-#### Kubernetes
+#### [Kubernetes](https://kubernetes.io/)
 
 
