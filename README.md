@@ -21,6 +21,7 @@ Playing around with and learning more about various core features of Docker (v20
 1. Cluster Architecture 
 2. Deployment Objects
     * Deployment Config Files
+      * Liveness Probes
     * Updating & Rolling Back Deployments
 3. Service Objects
     * Deployment Pod exposure with Service
