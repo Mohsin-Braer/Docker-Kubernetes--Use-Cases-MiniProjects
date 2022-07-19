@@ -33,6 +33,6 @@ Playing around with and learning more about various core features of Docker (v20
 
 ## Acknowledgements
 
-A big thank you to Maximilian Schwarzmüller for the guidance
+A big thank you to Maximilian Schwarzmüller for the guidance & tutorials
 
 
