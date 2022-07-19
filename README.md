@@ -27,5 +27,8 @@ Playing around with and learning more about various core features of Docker (v20
     * Deployment Pod exposure with Service
 4. Scaling Pods
 5. Labels & Selectors
+6. Kubernetes Volumes
+7. Cross-Pod Communication
+8. Deployment w/ AWS EKS
 
 
