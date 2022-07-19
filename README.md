@@ -31,4 +31,8 @@ Playing around with and learning more about various core features of Docker (v20
 7. Cross-Pod Communication
 8. Deployment w/ AWS EKS
 
+## Acknowledgements
+
+A big thank you to Maximilian Schwarzmüller for the guidance
+
 
